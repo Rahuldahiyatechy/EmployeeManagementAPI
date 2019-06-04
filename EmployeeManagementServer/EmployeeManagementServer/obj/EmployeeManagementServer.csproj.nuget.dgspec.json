@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Rahul\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\EmployeeManagementServer.csproj": {}
+    "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\EmployeeManagementServer.csproj": {}
   },
   "projects": {
-    "E:\\Rahul\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\EmployeeManagementServer.csproj": {
+    "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\EmployeeManagementServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rahul\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\EmployeeManagementServer.csproj",
+        "projectUniqueName": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\EmployeeManagementServer.csproj",
         "projectName": "EmployeeManagementServer",
-        "projectPath": "E:\\Rahul\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\EmployeeManagementServer.csproj",
-        "packagesPath": "C:\\Users\\Dell pc\\.nuget\\packages\\",
-        "outputPath": "E:\\Rahul\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\obj\\",
+        "projectPath": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\EmployeeManagementServer.csproj",
+        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
+        "outputPath": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\EmployeeManagementServer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dell pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

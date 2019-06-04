@@ -1,0 +1,9 @@
+E:\EmployeeManagementAPI\EmployeeManagementServer\Business\bin\Debug\netcoreapp2.1\Business.deps.json
+E:\EmployeeManagementAPI\EmployeeManagementServer\Business\bin\Debug\netcoreapp2.1\Business.dll
+E:\EmployeeManagementAPI\EmployeeManagementServer\Business\bin\Debug\netcoreapp2.1\Business.pdb
+E:\EmployeeManagementAPI\EmployeeManagementServer\Business\obj\Debug\netcoreapp2.1\Business.csprojAssemblyReference.cache
+E:\EmployeeManagementAPI\EmployeeManagementServer\Business\obj\Debug\netcoreapp2.1\Business.csproj.CoreCompileInputs.cache
+E:\EmployeeManagementAPI\EmployeeManagementServer\Business\obj\Debug\netcoreapp2.1\Business.AssemblyInfoInputs.cache
+E:\EmployeeManagementAPI\EmployeeManagementServer\Business\obj\Debug\netcoreapp2.1\Business.AssemblyInfo.cs
+E:\EmployeeManagementAPI\EmployeeManagementServer\Business\obj\Debug\netcoreapp2.1\Business.dll
+E:\EmployeeManagementAPI\EmployeeManagementServer\Business\obj\Debug\netcoreapp2.1\Business.pdb

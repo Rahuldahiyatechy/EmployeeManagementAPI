@@ -1,0 +1,12 @@
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\bin\Debug\netcoreapp2.1\Repositories.deps.json
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\bin\Debug\netcoreapp2.1\Repositories.dll
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\bin\Debug\netcoreapp2.1\Repositories.pdb
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\bin\Debug\netcoreapp2.1\Models.dll
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\bin\Debug\netcoreapp2.1\Models.pdb
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\obj\Debug\netcoreapp2.1\Repositories.csprojAssemblyReference.cache
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\obj\Debug\netcoreapp2.1\Repositories.csproj.CoreCompileInputs.cache
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\obj\Debug\netcoreapp2.1\Repositories.AssemblyInfoInputs.cache
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\obj\Debug\netcoreapp2.1\Repositories.AssemblyInfo.cs
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\obj\Debug\netcoreapp2.1\Repositories.csproj.CopyComplete
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\obj\Debug\netcoreapp2.1\Repositories.dll
+E:\EmployeeManagementAPI\EmployeeManagementServer\Repositories\obj\Debug\netcoreapp2.1\Repositories.pdb

@@ -6,5 +6,6 @@ namespace Repositories.Interface
 {
     public interface IRegistrationRepository
     {
+
     }
 }

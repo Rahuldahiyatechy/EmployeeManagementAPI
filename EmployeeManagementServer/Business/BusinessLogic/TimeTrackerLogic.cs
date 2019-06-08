@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Business.BusinessLogic
 {
-   public class TimeTracker: ITimeTrackerLogic
+   public class TimeTrackerLogic: ITimeTrackerLogic
     {
     }
 }

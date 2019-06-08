@@ -2,19 +2,16 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Models.Models
+namespace Entities
 {
-   public class User
+  public class Admin
     {
         public int EmployeeId { get; set; }
 
         public string Name { get; set; }
 
-      
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
         public DateTime TotalTime { get; set; }
-
-
     }
 }

@@ -5,7 +5,7 @@ using System.Text;
 
 namespace Repositories.Repository
 {
-   public class UserRepository: IUseRepository
+   public class UserRepository: IUserRepository
     {
     }
 }

@@ -7,5 +7,6 @@ namespace Repositories.Repository
 {
     public class RegistrationRepository: IRegistrationRepository
     {
+
     }
 }

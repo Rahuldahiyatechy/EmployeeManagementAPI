@@ -11,7 +11,7 @@ namespace Entities
    public class Registration
     {
         [Key]
-        public int EmployeeId { get; set; }
+        public int Id { get; set; }
 
         public string Name { get; set; }
 
@@ -25,7 +25,7 @@ namespace Entities
         public virtual Role Role { get; set; }
 
 
-        public DateTime DateofJoining { get; set; }
+        public DateTime DateOfJoining { get; set; }
 
 
         public string Designation { get; set; }
@@ -34,9 +34,11 @@ namespace Entities
         public DateTime DateOfBirth { get; set; }
 
 
-        public string Hometown { get; set; }
+        public string AddressDescription1 { get; set; }
 
-        public string Disttrict { get; set; }
+        public string AddressDescription2 { get; set; }
+
+        public string City { get; set; }
 
         public string State { get; set; }
                        

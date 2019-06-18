@@ -4,14 +4,14 @@
     "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\Repositories\\Repositories.csproj": {}
   },
   "projects": {
-    "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\Models\\Models.csproj": {
+    "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\DTOs\\DTOs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\Models\\Models.csproj",
-        "projectName": "Models",
-        "projectPath": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\Models\\Models.csproj",
+        "projectUniqueName": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\DTOs\\DTOs.csproj",
+        "projectName": "DTOs",
+        "projectPath": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\DTOs\\DTOs.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\Models\\obj\\",
+        "outputPath": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\DTOs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -82,8 +82,8 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {
-              "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\Models\\Models.csproj": {
-                "projectPath": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\Models\\Models.csproj"
+              "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\DTOs\\DTOs.csproj": {
+                "projectPath": "E:\\EmployeeManagementAPI\\EmployeeManagementServer\\DTOs\\DTOs.csproj"
               }
             }
           }
@@ -97,6 +97,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",

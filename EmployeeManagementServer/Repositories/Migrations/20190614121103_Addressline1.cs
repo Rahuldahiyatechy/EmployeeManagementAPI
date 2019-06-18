@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Repositories.Migrations
 {
-    public partial class initial : Migration
+    public partial class Addressline1 : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -25,23 +25,24 @@ namespace Repositories.Migrations
                 name: "Registration",
                 columns: table => new
                 {
-                    EmployeeId = table.Column<int>(nullable: false)
+                    Id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
                     Password = table.Column<string>(nullable: true),
                     roleid = table.Column<int>(nullable: false),
-                    DateofJoining = table.Column<DateTime>(nullable: false),
+                    DateOfJoining = table.Column<DateTime>(nullable: false),
                     Designation = table.Column<string>(nullable: true),
                     Phone = table.Column<int>(nullable: false),
                     DateOfBirth = table.Column<DateTime>(nullable: false),
-                    Hometown = table.Column<string>(nullable: true),
-                    Disttrict = table.Column<string>(nullable: true),
+                    AddressDescription1 = table.Column<string>(nullable: true),
+                    AddressDescription2 = table.Column<string>(nullable: true),
+                    City = table.Column<string>(nullable: true),
                     State = table.Column<string>(nullable: true),
                     ZipCode = table.Column<int>(nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Registration", x => x.EmployeeId);
+                    table.PrimaryKey("PK_Registration", x => x.Id);
                     table.ForeignKey(
                         name: "FK_Registration_Role_roleid",
                         column: x => x.roleid,
@@ -58,7 +59,8 @@ namespace Repositories.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     EmployeeId = table.Column<int>(nullable: false),
                     StartTime = table.Column<DateTime>(nullable: false),
-                    EndTime = table.Column<DateTime>(nullable: false)
+                    EndTime = table.Column<DateTime>(nullable: false),
+                    TotalTime = table.Column<DateTime>(nullable: false)
                 },
                 constraints: table =>
                 {
@@ -67,7 +69,7 @@ namespace Repositories.Migrations
                         name: "FK_TimeTracker_Registration_EmployeeId",
                         column: x => x.EmployeeId,
                         principalTable: "Registration",
-                        principalColumn: "EmployeeId",
+                        principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 

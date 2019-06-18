@@ -57,43 +57,7 @@ namespace Repositories.Repository
 
         }
 
-
-
-        //
-
-
-
     }
 }
 
 
-//public void AddDepartment(Department department)
-//{
-//    context.Department.Add(department);
-//    context.SaveChanges();
-//}
-
-////for Delete Operation.
-//public Department getDepartmentRecordById(int id)
-//{
-//    return context.Department.SingleOrDefault(u => u.Id == id);
-//}
-
-//public void UpdateDepartment(Department departmentRecord)
-//{
-
-//    context.Department.Update(departmentRecord);
-//    context.SaveChanges();
-//}
-
-////for Delete Operation.
-//public Department deleteDepartmentRecordById(int id)
-//{
-//    return context.Department.SingleOrDefault(u => u.Id == id);
-//}
-
-//public void deleteDepartment(Department departmentRecordToDelete)
-//{
-//    context.Department.Remove(departmentRecordToDelete);
-//    context.SaveChanges();
-//}

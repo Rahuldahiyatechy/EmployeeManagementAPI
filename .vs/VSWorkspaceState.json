@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\EmployeeManagementServer",
+    "\\EmployeeManagementServer\\EmployeeManagementServer",
+    "\\EmployeeManagementServer\\EmployeeManagementServer\\Controllers",
+    "\\EmployeeManagementServer\\Repositories\\Entities"
+  ],
+  "SelectedNode": "\\EmployeeManagementServer\\EmployeeManagementServer\\Controllers",
+  "PreviewInSolutionExplorer": false
+}

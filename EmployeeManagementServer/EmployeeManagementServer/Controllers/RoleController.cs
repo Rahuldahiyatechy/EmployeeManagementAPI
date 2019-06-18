@@ -70,25 +70,6 @@ namespace EmployeeManagementServer.Controllers
 
 
 
-        //[HttpPost]
-        //[Route("update")]
-        //public IActionResult UpdateDepartmentData([FromBody]DepartmentDto departmentDto)
-        //{
-        //    var dto = _departmentBuisnessLogic.UpdateDepartment(departmentDto);
-
-        //    return Ok(dto);
-        //}
-
-
-
-        //[HttpGet]
-        //[Route("delete/{id}")]
-        //public IActionResult DeleteDepartmentRecord(int id)
-        //{
-        //    var dto = _departmentBuisnessLogic.DeleteDepartment(id);
-        //    return Ok(dto);
-
-        //}
 
 
     }

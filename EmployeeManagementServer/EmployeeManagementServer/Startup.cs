@@ -38,6 +38,7 @@ namespace EmployeeManagementServer
             services.AddScoped<IRegistrationLogic, RegistrationLogic>();
             services.AddScoped<ITimeTrackerLogic, TimeTrackerLogic>();
             services.AddScoped<IRoleLogic, RoleLogic>();
+            services.AddScoped<ILoginLogic, LoginLogic>();
 
         }
 

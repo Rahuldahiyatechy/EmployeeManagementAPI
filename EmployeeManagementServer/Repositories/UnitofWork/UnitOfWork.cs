@@ -25,9 +25,33 @@ namespace Repositories.UnitofWork
         public IAdminRepository adminRepository => throw new NotImplementedException();
 
 
-        public ILoginRepository loginRepository => throw new NotImplementedException();
+        public ILoginRepository loginRepository
+        {
+            get
+            {
+                if (this._loginRepository == null)
+                {
+                    this._loginRepository = new LoginRepository(DbContext);
+                }
+                return this._loginRepository;
+            }
+        }
 
-        public IRegistrationRepository registrationRepository => throw new NotImplementedException();
+
+        public IRegistrationRepository registrationRepository
+        {
+            get
+            {
+                if (this._registrationRepository == null)
+                {
+                    this._registrationRepository = new RegistrationRepository(DbContext);
+                }
+                return this._registrationRepository;
+            }
+        }
+
+
+
 
         public ITimeTrackerRepository timeTrackerRepository => throw new NotImplementedException();
 
@@ -44,6 +68,11 @@ namespace Repositories.UnitofWork
                 return this._roleRepository;
             }
         }
+
+
+
+
+
 
         public int Complete()
         {

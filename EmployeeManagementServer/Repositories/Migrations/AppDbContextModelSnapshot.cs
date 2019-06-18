@@ -21,19 +21,21 @@ namespace Repositories.Migrations
 
             modelBuilder.Entity("Entities.Registration", b =>
                 {
-                    b.Property<int>("EmployeeId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<string>("AddressDescription1");
+
+                    b.Property<string>("AddressDescription2");
+
+                    b.Property<string>("City");
+
                     b.Property<DateTime>("DateOfBirth");
 
-                    b.Property<DateTime>("DateofJoining");
+                    b.Property<DateTime>("DateOfJoining");
 
                     b.Property<string>("Designation");
-
-                    b.Property<string>("Disttrict");
-
-                    b.Property<string>("Hometown");
 
                     b.Property<string>("Name");
 
@@ -47,7 +49,7 @@ namespace Repositories.Migrations
 
                     b.Property<int>("roleid");
 
-                    b.HasKey("EmployeeId");
+                    b.HasKey("Id");
 
                     b.HasIndex("roleid");
 
@@ -78,6 +80,8 @@ namespace Repositories.Migrations
                     b.Property<DateTime>("EndTime");
 
                     b.Property<DateTime>("StartTime");
+
+                    b.Property<DateTime>("TotalTime");
 
                     b.HasKey("TimeTrackerId");
 
